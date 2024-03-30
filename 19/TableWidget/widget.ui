@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>641</width>
+     <height>341</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_addRow">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>400</y>
+     <width>181</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add row</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_addCol">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>400</y>
+     <width>181</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add col</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delRow">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>450</y>
+     <width>181</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>del selected row</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delCol">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>450</y>
+     <width>181</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>del selected col</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>430</y>
+     <width>191</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>new column name</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
